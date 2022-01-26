@@ -12,9 +12,9 @@
 </head>
 
 <body>
-    @include('layout.navbar')
 
-    @yield('content')
+    <x-navbar></x-navbar>
+    {{ $slot }}
 
 
 <!---<script src="js/app.js"></script>---->
